@@ -83,6 +83,9 @@ app.post('/generate-text', async (req, res) => {
      }
 });
 
+// fitur chat
+//endpoint: POST /api/chat
+
 //servernya harus diserve dulu!
 app.listen(3000, () => {
     console.log('I LOVE YOU 3000');
